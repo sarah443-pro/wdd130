@@ -1,0 +1,84 @@
+/* Define color scheme variables */
+:root {
+    --primary-color: #0057B7;
+    --color: white;
+    --heading-font: 'Bebas Neue', sans-serif;
+    --text-font: 'Lato', sans-serif;
+}
+
+/* Limit the page width for better design */
+body {
+    max-width: 800px;
+    margin: 2rem;
+    font-family: var(--text-font);
+    color: var(--color);
+}
+
+h1 {
+    font-family: var(--heading-font);
+    color: rgb(252, 248, 248);
+}
+/* Heading Styles */
+h2, h3, h4, h5, h6 {
+    font-family: var(--text-font);
+    color: var(--primary-color);
+}
+
+/* Paragraph styles */
+p {
+    font-family: var(--text-font);
+    color: black;
+}
+
+.p1 {
+    color: white;
+    font-family: var(--text-font);
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+}
+
+/* Remove underlines only from social media image links */
+.Social links a {
+    text-decoration: none;
+    border: none;
+}
+
+/* Hero Section Styling */
+.herodiv {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.herodiv img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.herodiv h1 {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    background: rgba(17, 0, 0, 0.7);
+    border: 0px solid #423f3f;
+    padding: 0.40rem;
+    
+}
+
+.stats {
+    position: absolute;
+    bottom: 20%;
+    left: 15%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 0.65rem;
+}
+
+
+.stats img {
+    float: right;
+    width: 25%;
+    height: auto;
+}
