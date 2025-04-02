@@ -38,25 +38,25 @@ p {
 }
 
 /* Remove underlines only from social media image links */
-.Social-media a {
+.Social a {
     text-decoration: none;
     border: none;
 }
 
 /* Hero Section Styling */
-.herodiv {
+.hero {
     position: relative;
     width: 100%;
     height: auto;
 }
 
-.herodiv img {
+.hero img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-.herodiv h1 {
+.hero h1 {
     position: absolute;
     top: 20%;
     right: 10%;
