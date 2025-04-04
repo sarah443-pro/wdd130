@@ -1,0 +1,13 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px;
+    grid-gap: 20px;
+    background-color: lightblue;
+    padding: 20px;
+}
+.grid-item {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    font-size: 30;
+    text-align: center;
+}

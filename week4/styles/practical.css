@@ -1,0 +1,83 @@
+/* Define color scheme variables */
+:root {
+    --primary-color: #0057B7;
+    --heading-font: "Bebas Neue";
+    --text-font: "Lato";
+}
+
+/* Limit the page width for better design */
+body {
+    max-width: 800px;
+    margin: 2rem;
+    font-family: var(--text-font);
+    color: white
+}
+
+h1 {
+    font-family: var(--text-font);
+    color: rgb(252, 248, 248);
+}
+/* Heading Styles */
+h2, h3, h4, h5, h6 {
+    font-family: var(--text-font);
+    color: var(--primary-color);
+}
+
+/* Paragraph styles */
+p {
+    font-family: var(--text-font);
+    color: black;
+}
+
+.stats p {
+    color: white;
+    font-family: var(--text-font);
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}
+
+/* Remove underlines only from social media image links */
+.Social a {
+    text-decoration: none;
+    border: none;
+}
+
+/* Hero Section Styling */
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    background: rgba(17, 0, 0, 0.7);
+    border: 0px solid #423f3f;
+    padding: 0.40rem;
+    
+}
+
+.stats {
+    position: absolute;
+    bottom: 20%;
+    left: 15%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 0.65rem;
+}
+
+
+.stats img {
+    float: right;
+    width: 25%;
+    height: auto;
+}
