@@ -1,0 +1,23 @@
+--------------------------------------------------
+|                  Header (logo + nav)           |
+--------------------------------------------------
+|               Contact Information              |
+|  - Address, Phone, Email                       |
+|  - Embedded Google Map                         |
+--------------------------------------------------
+|              Meet Our Team                     |
+|  [photo]  [photo]  [photo]                     |
+|  Sarah   Jake     Mia                          |
+--------------------------------------------------
+|              Contact Form                      |
+|  Name                                           |
+|  Email                                          |
+|  Purpose [radio buttons]                       |
+|  Message textarea                              |
+|  [x] Subscribe to newsletter                   |
+|  [Submit Button]                               |
+--------------------------------------------------
+|                  Footer                        |
+--------------------------------------------------
+
+
